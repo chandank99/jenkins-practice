@@ -16,7 +16,7 @@ pipeline{
                 echo "This is the final (prod) job"
             }
         }
-        stage{
+        stage('Final stage'){
             steps{
                 echo "This is final step."
             }
