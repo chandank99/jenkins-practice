@@ -16,6 +16,11 @@ pipeline{
                 echo "This is the final (prod) job"
             }
         }
+        stage{
+            steps{
+                echo "This is final step."
+            }
+        }
     }
     post{
         always{
